@@ -1,0 +1,82 @@
+body {
+  height: 100vh;
+
+  background-color: rgba(1, 5, 9, 0.134);
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: 400;
+  color: rgb(2, 9, 16);
+}
+
+.section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.image {
+  margin-top: 80px;
+  background-image: linear-gradient(
+      to right bottom,
+      rgba(0, 0, 0, 0.084),
+      rgba(0, 0, 0, 0.027)
+    ),
+    url(./subway.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 20px;
+}
+
+.num {
+  font-size: 50px;
+}
+.container-item {
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.para {
+  font-size: 32px;
+  font-weight: 600;
+  text-align: center;
+}
+.increment {
+  background-color: rgb(134, 18, 22);
+}
+
+.btn,
+.btn:link,
+.btn:visited {
+  font-size: 32px;
+  text-decoration: none;
+  padding: 16px 32px;
+  text-transform: uppercase;
+  color: aliceblue;
+  font-weight: 700;
+  transition: all 0.3s;
+  cursor: pointer;
+
+  display: block;
+}
+
+/* .btn:hover,
+.btn:active {
+  box-shadow: 12px 15px 50px -10px rgba(211, 198, 198, 0);
+  transform: translateY(-10px);
+} */
+.save {
+  background-color: rgb(37, 196, 56);
+  padding: 16px 32px;
+}
